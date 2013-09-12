@@ -1,0 +1,79 @@
+body {
+}
+.content {
+    margin: 70px auto 10px auto;
+    clear: both;
+    
+	.carousel {
+		max-width: 950px;
+		margin: 0 auto;
+		border-radius: 10px;
+		overflow: hidden;
+	
+		.photo {
+			margin: 0 auto;
+			border-radius: 10px;
+			overflow: hidden;
+		}
+		.carousel-control {
+
+			background: transparent;
+			opacity: 1;
+		}
+		.carousel-indicators {
+			bottom: 0px;
+		}
+	}
+	.blog {
+		max-width: 950px;
+	}
+    .photo {
+		max-width: 950px;
+		margin: 20px auto;
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			box-shadow: 0px 1px 1px #333;
+
+		}  
+
+		footer.photo-info {
+			margin: 5px auto;
+			font-size: 0.9em;
+			color: @gray;
+
+			p {
+				margin: 0;
+			}
+
+			p.photo-title {
+				float: left;
+				margin-left: 5px;
+			}
+
+			p.photo-license {
+				float: right;
+				color: @gray-light;
+				margin-right: 5px;
+			}
+
+			p.photo-exif {
+				clear: both; 
+				margin-left: 5px;
+				
+				.camera {
+				    font-weight: bold;
+				    color: @brand-primary;
+				}
+				
+				.shutter:after {
+				    content: " @ ";
+				    color: @gray-light;
+				}
+			}
+
+
+		}
+    }
+}

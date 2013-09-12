@@ -1,0 +1,24 @@
+header.masthead {
+  border-bottom: 1px solid #ccc;
+}
+.content {
+  margin: 10px auto;
+  clear: both;
+}
+.content .photo {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.content .photo img {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 1px 1px #333;
+}
+.content .photo footer.photo-info {
+  margin: 5px auto;
+  font-size: 0.9em;
+  color: #777;
+}
+.content .photo footer.photo-info .camera {
+  font-weight: bold;
+}
